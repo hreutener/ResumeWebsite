@@ -60,6 +60,7 @@ mark {
 	color: inherit;
 }
 
+
 input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
@@ -87,10 +88,10 @@ input, select, textarea {
 	}
 
 	html {
-		box-sizing: border-box;
+	 box-sizing: border-box; 
 	}
 
-	*, *:before, *:after {
+	*, *:before, *:after  {
 		box-sizing: inherit;
 	}
 
@@ -172,6 +173,8 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2rem 0;
+		font-size: 13pt;
+		
 	}
 
 	h1, h2, h3, h4, h5, h6 {
